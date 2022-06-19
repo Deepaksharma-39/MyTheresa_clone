@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="VACATION.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="topp">
+        <div id="categoryy">
+            <a href="">WOMEN</a>
+            <a href="">MEN</a>
+            <a href="">KIDS</a>
+            <a href="">LIFE</a>
+        </div>
+  
+        <div id="signn">
+            <div>Signup for Newsletter</div>
+            <div id="account">My Account</div>
+            <div>My Wishlist ♡</div>
+            <div>India | English</div>
+        </div>
+    </div>
+     <!-- Navbar -->
+     <div id="body">
+        <div><img id="logo" src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128" alt="Error"></div>
+          <div id="miniNav">
+            <div>
+                <a href="NEW ARRIVAL.html"><p>NEW ARRIVALS</p></a>
+                <a href="DESIGNERS.html"><p>DESIGNERS</p></a>
+                <a href="GIRLS.html"><p>GIRLS</p></a>
+                <a href="BOYS.html"><p>BOYS</p></a>
+                <a href="BABY.html"><p>BABY</p></a>
+                <a href="SHOES.html"><p>SHOES</p></a>
+                <a href="VACATION.html"><p>VACATION SHOP</p></a>
+                <a href="SALES.html"><p>SALE</p></a>
+            </div>
+            <div id="searchBar">
+                <form>
+                     <input type="text" placeholder="Search for....">
+                     <button><img src="data:image/png;base64,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" alt="Error"></button>
+                </form>
+            </div>
+          </div>
+          <div class="blink" ><span>New styles added to our Kids sale</span></div>
+          <div>
+            <!-- End of Navbar -->
+    </div>
+    <!-- Sort navbar -->
+    <div id="top">
+        <div><label><a href="LANDING.html">kids</a></label><label>/Vacation >></label></div>
+        <div>
+            <select id="sort">
+                <option value="Sort by">Sort by</option>
+                <option value="asc">Price low-to-high</option>
+                <option value="desc">Price high-to-low</option>
+            </select>
+        </div>
+    </div>
+    <!-- End of Sort navbar -->
+    <div id="bottom">
+        <div id="sidebar">
+            <p>VACATION SHOP</p>
+            <div id="occassion">
+                <p>Occassion</p>
+                <form id="oca">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Swimwear" id="Swimwear" value="swimwear">
+                    <label for="Swimwear">Swimwear</label><br>
+                    
+                    <input type="checkbox" name="BA" id="BA" value="BA">
+                    <label for="Beach Accessories">Beach Accessories</label><br>
+
+                    <input type="checkbox" name="toy" id="toy" value="toy">
+                    <label for="Beach Toys">Beach Toys</label><br>
+
+                    <input type="checkbox" name="bag" id="bag" value="SDP">
+                    <label for="Summer Dresses & Playsuits">Summer Dresses & Playsuits</label><br>
+                </form>
+            </div>
+            <div id="cat">
+                <p>Category</p>
+                <form id="category">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Accessories" id="Accessories" value="boy">
+                    <label for="Accessories">Boy</label><br>
+                    
+                    <input type="checkbox" name="Clothing" id="Clothing" value="girl">
+                    <label for="Clothing">Girl</label><br>
+
+                    <input type="checkbox" name="Shoes" id="Shoes" value="unisex">
+                    <label for="Shoes">Unisex</label><br>
+
+                    <input type="checkbox" name="bag" id="bag" value="baby">
+                    <label for="bag">Baby</label><br>
+                </form>
+            </div>
+            <div id="brand">
+                <!-- <p>NEW ARRIVALS</p> -->
+                <p>Designer</p>
+                <form id="designer">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="MARYSIA BUMBY" id="MARYSIA BUMBY" value="MARYSIA BUMBY">
+                    <label for="MARYSIA BUMBY">MARYSIA BUMBY</label><br>
+                    
+                    <input type="checkbox" name="BONPOINT" id="BONPOINT" value="BONPOINT">
+                    <label for="BONPOINTE">BONPOINT</label><br>
+
+                    <input type="checkbox" name="LIEWOOD" id="LIEWOOD" value="LIEWOOD">
+                    <label for="LIEWOOD">LIEWOOD</label><br>
+
+                    <input type="checkbox" name="POUPETTE ST BARTH KIDS" id="POUPETTE ST BARTH KIDS" value="POUPETTE ST BARTH KIDS">
+                    <label for="POUPETTE ST BARTH KIDS">POUPETTE ST BARTH KIDS</label><br>
+
+                    <input type="checkbox" name="ZIMMERMANN KIDS" id="ZIMMERMANN KIDS" value="ZIMMERMANN KIDS">
+                    <label for="ZIMMERMANN KIDS">ZIMMERMANN KIDS</label><br>
+
+                    <input type="checkbox" name="BURBERRY KIDS" id="BURBERRY KIDS" value="BURBERRY KIDS">
+                    <label for="BURBERRY KIDS">BURBERRY KIDS</label><br>
+
+                    <input type="checkbox" name="STELLA MCCARTNEY KIDS" id="STELLA MCCARTNEY KIDS" value="STELLA MCCARTNEY KIDS">
+                    <label for="STELLA MCCARTNEY KIDS">STELLA MCCARTNEY KIDS</label><br>
+
+                    <input type="checkbox" name="VILEBREQUIN KIDS" id="VILEBREQUIN KIDS" value="VILEBREQUIN KIDS">
+                    <label for="VILEBREQUIN KIDS">VILEBREQUIN KIDS</label><br> 
+
+                    <input type="checkbox" name="THE ANIMALS OBSERVATORY" id="THE ANIMALS OBSERVATORY" value="THE ANIMALS OBSERVATORY">
+                    <label for="THE ANIMALS OBSERVATORY">THE ANIMALS OBSERVATORY</label><br> 
+
+                    <input type="checkbox" name="PALM ANGELS KIDS" id="PALM ANGELS KIDS" value="PALM ANGELS KIDS">
+                    <label for="PALM ANGELS KIDS">PALM ANGELS KIDS</label><br>
+
+                    <input type="checkbox" name="DOLCE&GABBANA KIDS" id="DOLCE&GABBANA KIDS" value="DOLCE&GABBANA KIDS">
+                    <label for="DOLCE&GABBANA KIDS">DOLCE&GABBANA KIDS</label><br>
+
+                    <input type="checkbox" name="MINI RODINI" id="MINI RODINI" value="MINI RODINI">
+                    <label for="MINI RODINI">MINI RODINI</label><br>
+
+                    <input type="checkbox" name="GUCCI KIDS" id="GUCCI KIDS" value="GUCCI KIDS">
+                    <label for="GUCCI KIDS">GUCCI KIDS</label><br>
+
+                    <input type="checkbox" name="BAPE KIDS" id="BAPE KIDS" value="BAPE KIDS">
+                    <label for="BAPE KIDS">BAPE KIDS</label><br>
+                </form>  
+            </div>
+            <div id="color-section">
+                <p>Colors</p>
+                <form id="colour">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Beige" id="Beige" value="beige">
+                    <label for="Beige">Beige</label><br>
+
+                    <input type="checkbox" name="Blue" id="Blue" value="blue">
+                    <label for="Blue">Blue</label><br>
+
+                    <input type="checkbox" name="Brown" id="Brown" value="brown">
+                    <label for="Brown">Brown</label><br>
+
+                    <input type="checkbox" name="green" id="Green" value="green">
+                    <label for="Green">Green</label><br>
+
+                    <input type="checkbox" name="Pink" id="Pink" value="pink">
+                    <label for="Pink">Pink</label><br>
+
+                    <input type="checkbox" name="Grey" id="Grey" value="grey">
+                    <label for="Grey">Grey</label><br>
+
+                    <input type="checkbox" name="Orange" id="Orange" value="orange">
+                    <label for="Orange">Orange</label><br>
+
+                    <input type="checkbox" name="Purple" id="Purple" value="purple">
+                    <label for="Purple">Purple</label><br>
+
+                    <input type="checkbox" name="Black" id="Black" value="black">
+                    <label for="Black">Black</label><br>
+
+                    <input type="checkbox" name="White" id="White" value="white">
+                    <label for="White">White</label><br>
+
+                    <input type="checkbox" name="Multicoloured" id="Multicoloured" value="multicoloured">
+                    <label for="Multicoloured">Multicoloured</label><br>
+                </form>
+            </div>
+        </div>
+        <div id="display">
+
+        </div>
+    </div>
+</body>
+</html>
+<script>
+     let vacation_data=[{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c2/P00652560.jpg",
+        brand: "MARYSIA BUMBY",
+        name:"French Gramercy swimsuit",
+        price:85,
+        cat:"swimwear",
+        color:"yellow",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/64/P00658220.jpg",
+        brand: "BONPOINT",
+        name:"x Izipizi round sunglasses",
+        price:45,
+        cat:"BA",
+        color:"yellow",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/10/P00660265.jpg",
+        brand: "LIEWOOD",
+        name:"Florence beach toy set",
+        price:55,
+        cat:"toy",
+        color:"multicoloured",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/9f/P00694997.jpg",
+        brand: "POUPETTE ST BARTH KIDS",
+        name:"Exclusive to Mytheresa – Pippa floral dress",
+        price:135,
+        cat:"SDP",
+        color:"multicoloured",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/0f/P00685357.jpg",
+        brand: "ZIMMERMANN KIDS",
+        name:"Pattie striped shirred cotton dress",
+        price:185,
+        cat:"SDP",
+        color:"multicoloured",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/a7/P00634414.jpg",
+        brand: "BURBERRY KIDS",
+        name:"Oval sunglasses",
+        price:105,
+        cat:"SDP",
+        color:"red",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/eb/P00650419.jpg",
+        brand: "STELLA MCCARTNEY KIDS",
+        name:"Printed cotton jersey T-shirt",
+        price:56,
+        cat:"SDP",
+        color:"red",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e6/P00681620.jpg",
+        brand: "VILEBREQUIN KIDS",
+        name:"x Smiley® Scandal beach towel",
+        price:89,
+        cat:"BA",
+        color:"blue",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f8/P00691015.jpg",
+        brand: "THE ANIMALS OBSERVATORY",
+        name:"Ferret floral cotton skirt",
+        price:49,
+        cat:"SDP",
+        color:"pink",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/64/P00598094.jpg",
+        brand: "PALM ANGELS KIDS",
+        name:"Bear cotton T-shirt",
+        price:125,
+        cat:"SDP",
+        color:"grey",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ca/P00680392.jpg",
+        brand: "DOLCE&GABBANA KIDS",
+        name:"Exclusive to Mytheresa – Baby printed cotton-blend dress and bloomers set",
+        price:249,
+        cat:"swimwear",
+        color:"multicolured",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/57/P00685855.jpg",
+        brand: "MINI RODINI",
+        name:"Checked shirt",
+        price:59,
+        cat:"SDP",
+        color:"yellow",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/a5/P00650291.jpg",
+        brand: "STELLA MCCARTNEY KIDS",
+        name:"Cotton twill shorts",
+        price:84,
+        cat:"SDP",
+        color:"brown",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/01/P00617874.jpg",
+        brand: "GUCCI KIDS",
+        name:"Logo swimsuit",
+        price:205,
+        cat:"swimwear",
+        color:"white",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d2/P00660229.jpg",
+        brand: "LIEWOOD",
+        name:"Cody rubber float",
+        price:35,
+        cat:"toy",
+        color:"brown",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4c/P00655876.jpg",
+        brand: "BAPE KIDS",
+        name:"A Bathing Ape® embroidered cotton baseball cap",
+        price:75,
+        cat:"SDP",
+        color:"multicoloured",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d4/P00660349.jpg",
+        brand: "LIEWOOD",
+        name:"Savannah inflatable pool",
+        price:55,
+        cat:"BA",
+        color:"beige",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/5b/P00660311.jpg",
+        brand: "LIEWOOD",
+        name:"Sille striped swimsuit",
+        price:49,
+        cat:"swimwear",
+        color:"yellow",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b2/P00650455.jpg",
+        brand: "STELLA MCCARTNEY KIDS",
+        name:"Baby set of cotton dress and bloomers",
+        price:107,
+        cat:"SDP",
+        color:"white",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ea/P00663003.jpg",
+        brand: "LIEWOOD",
+        name:"Paco cotton poncho",
+        price:35,
+        cat:"SDP",
+        color:"brown",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/94/P00686059.jpg",
+        brand: "MINI RODINI",
+        name:"Embroidered houndstooth swim trunks",
+        price:39,
+        cat:"swimwear",
+        color:"red",
+        type:"baby",
+        qty:1
+    }]
+    let vacationData=JSON.parse(localStorage.getItem("kids-Vacation"))||[]
+    document.querySelector("#sort").addEventListener("change",function(){
+          sortMe(vacation_data)
+    })
+    function sortMe(vacation_data)
+    {
+        let req = document.querySelector("#sort").value;
+        if(req=="asc")
+        {
+            let asc=vacation_data.sort(function(a,b){
+                if(a.price>b.price) return 1
+                if(a.price<b.price) return -1
+                return 0
+            })
+            displayProducts(asc)
+        }
+        else if(req=="desc")
+        {
+            let desc=vacation_data.sort(function(a,b){
+                if(a.price>b.price) return -1
+                if(a.price<b.price) return 1
+                return 0
+            })
+            displayProducts(desc)
+        }
+    }
+    displayProducts(vacation_data)
+    function displayProducts(vacation_data)
+    {
+        document.querySelector("#display").innerHTML=""
+        vacation_data.forEach(function(el){
+            let child_div=document.createElement("div")
+            let holder=document.createElement("div")
+            holder.setAttribute("class","holder")
+            let wish = document.createElement("button")
+            let heart = document.createElement("i")
+            heart.setAttribute("class","fas fa-heart")
+            wish.append(heart)
+            wish.style.color="grey"
+            wish.setAttribute("class","btn1")
+            wish.addEventListener("click",function(){
+                if(toggle(el,wish)==true)
+                {
+                    alert("Item already extists in wishlist")
+                }
+                else
+                {
+                    if(wish.style.color=="grey")
+                    {
+                      wish.style.color="red"
+                    }
+                    else
+                    {
+                      wish.style.color="grey"
+                    }
+                    vacationData.push(el)
+                    alert("added")
+                    localStorage.setItem("kids-Vacation",JSON.stringify(vacationData))
+                }
+            })
+            holder.append(wish)
+            let img = document.createElement("img")
+            img.setAttribute("src",el.img)
+            let brand = document.createElement("p")
+            brand.innerText=el.brand;
+            let name=document.createElement("p")
+            name.innerText=el.name;
+            let price=document.createElement("p")
+            price.innerText="€"+" "+el.price;
+            child_div.append(holder,img,brand,name,price)
+            document.querySelector("#display").append(child_div)
+        });
+    }
+       function toggle(el,wish)
+       {
+         let filtered= vacationData.filter(function(elem){
+            return el.name==elem.name
+         })
+         if(filtered.length>0)
+         {
+            return true
+         }
+         else
+         {
+            return false
+         }
+       }
+    let sorting = document.querySelectorAll("#colour>input")
+    for(let i=0;i<sorting.length;i++)
+    {
+        let c = sorting[i].value
+        sorting[i].addEventListener("click",function(){
+            colourSort(c)
+        })
+    }
+    function colourSort(c)
+    {
+       if(c==="All")
+        {
+            displayProducts(vacation_data)
+        }
+        else
+        {
+            let filtered=vacation_data.filter(function(el){
+            return el.color==c
+            })
+            if(filtered.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(filtered)
+            }
+        }
+    }
+    let sortingBrand = document.querySelectorAll("#designer>input")
+    for(let i=0;i<sortingBrand.length;i++)
+    {
+        let b = sortingBrand[i].value
+        console.log(b)
+        sortingBrand[i].addEventListener("click",function(){
+            brandSort(b)
+        })
+    }
+    function brandSort(b)
+    {
+       if(b==="All")
+        {
+            displayProducts(vacation_data)
+        }
+        else
+        {
+            let brandFilter=vacation_data.filter(function(el){
+            return el.brand==b
+            })
+            if(brandFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(brandFilter)
+            }
+        }
+    }
+    let sortingCat = document.querySelectorAll("#category>input")
+    for(let i=0;i<sortingCat.length;i++)
+    {
+        let s = sortingCat[i].value
+        sortingCat[i].addEventListener("click",function(){
+            typeSort(s)
+        })
+    }
+    function typeSort(s)
+    {
+       if(s==="All")
+        {
+            displayProducts(vacation_data)
+        }
+        else
+        {
+            let catFilter=vacation_data.filter(function(el){
+            return el.type==s
+            })
+            if(catFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(catFilter)
+            }
+        }
+    }
+    let sortingOca = document.querySelectorAll("#oca>input")
+    for(let i=0;i<sortingCat.length;i++)
+    {
+        let o = sortingOca[i].value
+        sortingOca[i].addEventListener("click",function(){
+            catSort(o)
+        })
+    }
+    function catSort(o)
+    {
+       if(o==="All")
+        {
+            displayProducts(vacation_data)
+        }
+        else
+        {
+            let ocaFilter=vacation_data.filter(function(el){
+            return el.cat==o
+            })
+            if(ocaFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(ocaFilter)
+            }
+        }
+    }
+</script>

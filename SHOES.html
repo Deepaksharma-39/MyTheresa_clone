@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SHOES.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="topp">
+        <div id="categoryy">
+            <a href="">WOMEN</a>
+            <a href="">MEN</a>
+            <a href="">KIDS</a>
+            <a href="">LIFE</a>
+        </div>
+  
+        <div id="sign">
+            <div>Signup for Newsletter</div>
+            <div id="account">My Account</div>
+            <div>My Wishlist ♡</div>
+            <div>India | English</div>
+        </div>
+    </div>
+     <!-- Navbar -->
+     <div id="body">
+        <div><img id="logo" src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128" alt="Error"></div>
+          <div id="miniNav">
+            <div>
+                <a href="NEW ARRIVAL.html"><p>NEW ARRIVALS</p></a>
+                <a href="DESIGNERS.html"><p>DESIGNERS</p></a>
+                <a href="GIRLS.html"><p>GIRLS</p></a>
+                <a href="BOYS.html"><p>BOYS</p></a>
+                <a href="BABY.html"><p>BABY</p></a>
+                <a href="SHOES.html"><p>SHOES</p></a>
+                <a href="VACATION.html"><p>VACATION SHOP</p></a>
+                <a href="SALES.html"><p>SALE</p></a>
+            </div>
+            <div id="searchBar">
+                <form>
+                     <input type="text" placeholder="Search for....">
+                     <button><img src="data:image/png;base64,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" alt="Error"></button>
+                </form>
+            </div>
+          </div>
+          <div class="blink" ><span>New styles added to our Kids sale</span></div>
+          <div>
+            <!-- End of Navbar -->
+    </div>
+    <!-- Sort navbar -->
+    <div id="top">
+        <div><label><a href="LANDING.html">kids</a></label><label>/Shoes >></label></div>
+        <div>
+            <select id="sort">
+                <option value="Sort by">Sort by</option>
+                <option value="asc">Price low-to-high</option>
+                <option value="desc">Price high-to-low</option>
+            </select>
+        </div>
+    </div>
+    <!-- End of Sort navbar -->
+    <div id="bottom">
+        <div id="sidebar">
+            <p>SHOES</p>
+            <div id="occassion">
+                <p>Type of wear</p>
+                <form id="oca">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Swimwear" id="Swimwear" value="sandals">
+                    <label for="Swimwear">Sandals</label><br>
+                    
+                    <input type="checkbox" name="BA" id="BA" value="sneakers">
+                    <label for="Beach Accessories">Sneakers</label><br>
+
+                    <input type="checkbox" name="toy" id="toy" value="slides">
+                    <label for="Beach Toys">Slides</label><br>
+
+                    <input type="checkbox" name="bag" id="bag" value="boots">
+                    <label for="Summer Dresses & Playsuits">Boots</label><br>
+                </form>
+            </div>
+            <div id="cat">
+                <p>Category</p>
+                <form id="category">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Accessories" id="Accessories" value="boy">
+                    <label for="Accessories">Boy</label><br>
+                    
+                    <input type="checkbox" name="Clothing" id="Clothing" value="girl">
+                    <label for="Clothing">Girl</label><br>
+
+                    <input type="checkbox" name="Shoes" id="Shoes" value="unisex">
+                    <label for="Shoes">Unisex</label><br>
+
+                    <input type="checkbox" name="bag" id="bag" value="baby">
+                    <label for="bag">Baby</label><br>
+                </form>
+            </div>
+            <div id="brand">
+                <!-- <p>NEW ARRIVALS</p> -->
+                <p>Designer</p>
+                <form id="designer">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="MARYSIA BUMBY" id="MARYSIA BUMBY" value="KENZO KIDS">
+                    <label for="MARYSIA BUMBY">KENZO KIDS</label><br>
+                    
+                    <input type="checkbox" name="BONPOINT" id="BONPOINT" value="CHLOÉ KIDS">
+                    <label for="BONPOINTE">CHLOÉ KIDS</label><br>
+
+                    <input type="checkbox" name="LIEWOOD" id="MARC JACOBS KIDS" value="MARC JACOBS KIDS">
+                    <label for="LIEWOOD">MARC JACOBS KIDS</label><br>
+
+                    <input type="checkbox" name="BURBERRY KIDS" id="OFF-WHITE KIDS" value="OFF-WHITE KIDS">
+                    <label for="BURBERRY KIDS">OFF-WHITE KIDS</label><br>
+
+                    <input type="checkbox" name="STELLA MCCARTNEY KIDS" id="STELLA MCCARTNEY KIDS" value="MOSCHINO KIDS">
+                    <label for="STELLA MCCARTNEY KIDS">MOSCHINO KIDS</label><br>
+
+                    <input type="checkbox" name="PALM ANGELS KIDS" id="PALM ANGELS KIDS" value="NEW BALANCE KIDS">
+                    <label for="PALM ANGELS KIDS">NEW BALANCE KIDS</label><br>
+
+                    <input type="checkbox" name="MINI RODINI" id="MINI RODINI" value="SOPHIA WEBSTER MINI">
+                    <label for="MINI RODINI">SOPHIA WEBSTER MINI</label><br>
+                </form>  
+            </div>
+            <div id="color-section">
+                <p>Colors</p>
+                <form id="colour">
+                    <input type="checkbox" name="All" id="All" value="All">
+                    <label for="All">All</label><br>
+
+                    <input type="checkbox" name="Beige" id="Beige" value="beige">
+                    <label for="Beige">Beige</label><br>
+
+                    <input type="checkbox" name="Blue" id="Blue" value="blue">
+                    <label for="Blue">Blue</label><br>
+
+                    <input type="checkbox" name="Brown" id="Brown" value="brown">
+                    <label for="Brown">Brown</label><br>
+
+                    <input type="checkbox" name="green" id="Green" value="green">
+                    <label for="Green">Green</label><br>
+
+                    <input type="checkbox" name="Pink" id="Pink" value="pink">
+                    <label for="Pink">Pink</label><br>
+
+                    <input type="checkbox" name="Grey" id="Grey" value="grey">
+                    <label for="Grey">Grey</label><br>
+
+                    <input type="checkbox" name="Orange" id="Orange" value="orange">
+                    <label for="Orange">Orange</label><br>
+
+                    <input type="checkbox" name="Purple" id="Purple" value="purple">
+                    <label for="Purple">Purple</label><br>
+
+                    <input type="checkbox" name="Black" id="Black" value="black">
+                    <label for="Black">Black</label><br>
+
+                    <input type="checkbox" name="White" id="White" value="white">
+                    <label for="White">White</label><br>
+
+                    <input type="checkbox" name="Multicoloured" id="Multicoloured" value="multicoloured">
+                    <label for="Multicoloured">Multicoloured</label><br>
+                </form>
+            </div>
+        </div>
+        <div id="display">
+
+        </div>
+    </div>
+    <div id="details">
+        <p>DESIGNER SHOES FOR KIDS</p>
+        <p class="para">
+            When you’re investing in footwear for your beloved child, it’s important that you choose something 
+            that is appealing to both of you. Luckily, a handful of your favorite shoe brands now have miniature
+             versions of all of their best styles; making getting your kids dressed easier than ever. Mytheresa 
+             has put together a unique collection of designer shoes for kids to encourage your little ones 
+             to walk, run, and jump in style.
+        </p>
+        <p>SHOES YOUR KIDS WILL ACTUALLY WANT TO WEAR</p>
+        <p class="para">
+            We know children have strong opinions about everything, especially when it comes to their outfit of
+             the day, but we promise that our selection of kids’ shoes will satisfy even the pickiest rugrats 
+             in your life. At Mytheresa, you can find trendy shoes for every stage of your growing child’s 
+             development. With a wide offering of shoes for boys and girls, that includes the perfect blend 
+             of high-end pieces for every day, as well as special occasion items, buying shoes has never been 
+             easier.
+        </p>
+        <p class="para">
+            You’ll find that boys’ sneakers, like the ones from Balenciaga Kids, will soon become a wardrobe 
+            staple and that you will be tempted to buy them on repeat. Their bestselling Speed sneakers will 
+            make getting dressed in the morning an absolute breeze. Their slip-on format saves you from the 
+            hassle of having to tie any shoelaces and are a great choice during the school year.
+        </p>
+        <p class="para">
+            It’s easy to find the right girls’ shoes for your daughter. Whether she prefers the comfort of 
+            Ugg boots or the simple stylishness of Sophia Webster Mini, we have an assortment of children’s 
+            shoes in a variety of styles and colors that will help your kids stay as fashionable as possible. 
+            Naturally, kids sandals are an obvious option for the summer. Our girls’ sandals are crafted from 
+            the highest quality materials the world has to offer which means that comfort and durability are 
+            to be expected.
+        </p>
+        <p class="para">
+            Continue browsing through Mytheresa Kids for the finest selection of designer boys' and girls' 
+            fashion and reach out to our expert Customer Service team for any assistance regarding your purchase.
+        </p>
+        <div>
+            <button>DESIGNER MEN'S FASHION</button>
+            <button>DESIGNER WOMEN'S FASHION</button>
+        </div>
+    </div>
+    <footer id="FooterDetails">
+        <div>
+            <p>SERVICE & SECURITY</p>
+            <p>✓ Fast delivery</p>
+            <p>Delivery within 2 business days</p>
+            <p>✓ Free returns within 30 days</p>
+            <p>Convenient return service</p>
+            <p>✓ Secure payment and data protection</p>
+            <p>SSL encryption for secure transactions and personal data</p>
+  
+  
+        </div>
+        <div>
+            <p>MYTHERESA</p>
+            <p>About us</p>
+            <p> Trust & services</p>
+            <p>Sustainability</p>
+            <p> Press</p>
+            <p> Careers</p>
+            <p> Investor Relations</p>
+            <p> Affiliates</p>
+        </div>
+        <div>
+            <p>CUSTOMER CARE</p>
+            <p>Contact us</p>
+            <p>Shipping information</p>
+            <p>Secure payment</p>
+            <p>Exchanges</p>
+            <p>Returns</p>
+            <p>After sale service</p>
+            <p>Gift card</p>
+        </div>
+        <div>
+            <p>GET TREND UPDATES, STYLE TIPS AND MORE</p>
+            <input type="email" placeholder="your email address here"><label for="Signup">SIGNUP</label>
+            <p>Wishlist ♡</p>
+            <p>Receive personal notifications</p>
+            <p>Follow us on</p>
+            <div id="FatherLogo">
+                <div><img id="LoGo"
+                        src="https://www.abacuspg.co.uk/wp-content/uploads/2016/06/linkedin-logo_318-50643.jpg"
+                        alt="x-icon"></div>
+                <div><img id="LoGo" src="https://www.billingschamber.com/media/facebook.png" alt="x-icon"></div>
+                <div><img id="LoGo" src="https://clipart.info/images/ccovers/1534043160twitter-logo-png-black.png"
+                        alt="x-icon"></div>
+                <div><img id="LoGo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pinterest_font_awesome.svg/512px-Pinterest_font_awesome.svg.png?20170908192524"
+                        alt="x-icon"></div>
+                <div><img id="LoGo"
+                        src="https://i.etsystatic.com/26102212/r/il/a42611/3201074382/il_1140xN.3201074382_hy4l.jpg"
+                        alt="x-icon"></div>
+                <div><img id="LoGo"
+                        src="https://www.nicepng.com/png/full/14-147850_youtube-play-button-youtube-play-button-black.png"
+                        alt="x-icon"></div>
+                <div><img id="LoGo"
+                        src="https://static.vecteezy.com/system/resources/previews/001/195/120/non_2x/camera-film-polaroid-png.png"
+                        alt="x-icon"></div>
+                <!-- <div><img id="LoGo" src="" alt="x-icon"></div>
+                <div><img id="LoGo" src="" alt="x-icon"></div> -->
+            </div>
+        </div>
+    </footer>
+    <footer id="LastFooter">
+        <div id="img">
+            <p>payment methods:</p><label>
+                <img src="https://www.wisdom-drops.com/wp-content/uploads/2017/02/paypal-logo-300x117.png" alt="paypal">
+            </label>
+        </div>
+  
+        <div>
+            copyright &copy; 2006-2022 mytheresa.com
+        </div>
+  
+        <div>
+            <a href="https://www.mytheresa.com/int_en/service/terms-conditions/">terms of use</a>
+            <a href="https://www.mytheresa.com/int_en/service/privacy-policy/">privacy-policy</a>
+            <a href="https://www.mytheresa.com/int_en/service/imprint/">imprint</a>
+        </div>
+        <div id="imgg1">
+            <p>delivered by:</p><label id="im">
+                <img id="imgg2" src="https://assets.dpdhl-brands.com/guides/dhl/guides/design-basics/logo-and-claim/logo/versions-01.png" alt="dhl">
+            </label>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    let shoes_data=[{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/10/P00652023.jpg",
+        brand: "KENZO KIDS",
+        name:"Rubber sandals",
+        price:49,
+        cat:"sandals",
+        color:"pink",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/fc/P00650865.jpg",
+        brand: "MARC JACOBS KIDS",
+        name:"Striped sandals",
+        price:79,
+        cat:"sandals",
+        color:"multicoloured",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/05/P00655395.jpg",
+        brand: "OFF-WHITE KIDS",
+        name:"Low Vulcanized sneakers",
+        price:159,
+        cat:"sneakers",
+        color:"green",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/cc/P00655394.jpg",
+        brand: "OFF-WHITE KIDS",
+        name:"Low Vulcanized sneakers",
+        price:159,
+        cat:"sneakers",
+        color:"white",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/7b/P00655210.jpg",
+        brand: "OFF-WHITE KIDS",
+        name:"Low Vulcanized sneakers",
+        price:175,
+        cat:"sneakers",
+        color:"blue",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/70/P00650551.jpg",
+        brand: "CHLOÉ KIDS",
+        name:"Leather sneakers",
+        price:159,
+        cat:"sneakers",
+        color:"beige",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/cb/P00642682.jpg",
+        brand: "MOSCHINO KIDS",
+        name:"Logo sandals",
+        price:165,
+        cat:"sandals",
+        color:"black",
+        type:"unisex",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/67/P00664910.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Butterfly rubber slides",
+        price:75,
+        cat:"slides",
+        color:"blue",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f9/P00642788.jpg",
+        brand: "MOSCHINO KIDS",
+        name:"Glitter slides",
+        price:89,
+        cat:"slides",
+        color:"white",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d1/P00614747.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Tia leather combat boots",
+        price:200,
+        cat:"boots",
+        color:"white",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/cb/P00614746.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Tia leather combat boots",
+        price:200,
+        cat:"boots",
+        color:"black",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e6/P00642581.jpg",
+        brand: "MOSCHINO KIDS",
+        name:"Teddy embroidered leather sandals",
+        price:179,
+        cat:"sandals",
+        color:"pink",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c2/P00610480.jpg",
+        brand: "NEW BALANCE KIDS",
+        name:"574 suede sneakers",
+        price:69,
+        cat:"sneakers",
+        color:"grey",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4b/P00667606.jpg",
+        brand: "NEW BALANCE KIDS",
+        name:"574 suede sneakers",
+        price:75,
+        cat:"sneakers",
+        color:"multicoloured",
+        type:"boy",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/46/P00650546.jpg",
+        brand: "CHLOÉ KIDS",
+        name:"Leather-trimmed sandals",
+        price:189,
+        cat:"sandals",
+        color:"brown",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/07/P00650548.jpg",
+        brand: "CHLOÉ KIDS",
+        name:"Leather-trimmed denim sandals",
+        price:189,
+        cat:"sandals",
+        color:"brown",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/29/P00614755.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Fly-By sneakers",
+        price:179,
+        cat:"sneakers",
+        color:"multicoloured",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/fb/P00664897.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Chiara patent leather sandals",
+        price:209,
+        cat:"sandals",
+        color:"multicoloured",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/12/P00614744.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Tia leopard-print leather combat boots",
+        price:209,
+        cat:"boots",
+        color:"black",
+        type:"girl",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/7f/P00664912.jpg",
+        brand: "SOPHIA WEBSTER MINI",
+        name:"Butterfly jelly sandals",
+        price:85,
+        cat:"sandals",
+        color:"blue",
+        type:"baby",
+        qty:1
+    },{
+        img:"https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ff/P00543147.jpg",
+        brand: "MOSCHINO KIDS",
+        name:"Baby leather sandals",
+        price:95,
+        cat:"sandals",
+        color:"white",
+        type:"baby",
+        qty:1
+    }]
+    let shoesData=JSON.parse(localStorage.getItem("kids-Shoes"))||[]
+    document.querySelector("#sort").addEventListener("change",function(){
+          sortMe(shoes_data)
+    })
+    function sortMe(shoes_data)
+    {
+        let req = document.querySelector("#sort").value;
+        if(req=="asc")
+        {
+            let asc=shoes_data.sort(function(a,b){
+                if(a.price>b.price) return 1
+                if(a.price<b.price) return -1
+                return 0
+            })
+            displayProducts(asc)
+        }
+        else if(req=="desc")
+        {
+            let desc=shoes_data.sort(function(a,b){
+                if(a.price>b.price) return -1
+                if(a.price<b.price) return 1
+                return 0
+            })
+            displayProducts(desc)
+        }
+    }
+    displayProducts(shoes_data)
+    function displayProducts(shoes_data)
+    {
+        document.querySelector("#display").innerHTML=""
+        shoes_data.forEach(function(el){
+            let child_div=document.createElement("div")
+            let holder=document.createElement("div")
+            holder.setAttribute("class","holder")
+            let wish = document.createElement("button")
+            let heart = document.createElement("i")
+            heart.setAttribute("class","fas fa-heart")
+            wish.append(heart)
+            wish.style.color="grey"
+            wish.setAttribute("class","btn1")
+            wish.addEventListener("click",function(){
+                if(toggle(el,wish)==true)
+                {
+                    alert("Item already extists in wishlist")
+                }
+                else
+                {
+                    if(wish.style.color=="grey")
+                    {
+                      wish.style.color="red"
+                    }
+                    else
+                    {
+                      wish.style.color="grey"
+                    }
+                    shoesData.push(el)
+                    alert("added")
+                    localStorage.setItem("kids-Shoes",JSON.stringify(shoesData))
+                }
+            })
+            holder.append(wish)
+            let img = document.createElement("img")
+            img.setAttribute("src",el.img)
+            let brand = document.createElement("p")
+            brand.innerText=el.brand;
+            let name=document.createElement("p")
+            name.innerText=el.name;
+            let price=document.createElement("p")
+            price.innerText="€"+" "+el.price;
+            child_div.append(holder,img,brand,name,price)
+            document.querySelector("#display").append(child_div)
+        });
+    }
+       function toggle(el,wish)
+       {
+         let filtered= shoesData.filter(function(elem){
+            return el.name==elem.name
+         })
+         if(filtered.length>0)
+         {
+            return true
+         }
+         else
+         {
+            return false
+         }
+       }
+    let sorting = document.querySelectorAll("#colour>input")
+    for(let i=0;i<sorting.length;i++)
+    {
+        let c = sorting[i].value
+        sorting[i].addEventListener("click",function(){
+            colourSort(c)
+        })
+    }
+    function colourSort(c)
+    {
+       if(c==="All")
+        {
+            displayProducts(shoes_data)
+        }
+        else
+        {
+            let filtered=shoes_data.filter(function(el){
+            return el.color==c
+            })
+            if(filtered.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(filtered)
+            }
+        }
+    }
+    let sortingBrand = document.querySelectorAll("#designer>input")
+    for(let i=0;i<sortingBrand.length;i++)
+    {
+        let b = sortingBrand[i].value
+        console.log(b)
+        sortingBrand[i].addEventListener("click",function(){
+            brandSort(b)
+        })
+    }
+    function brandSort(b)
+    {
+       if(b==="All")
+        {
+            displayProducts(shoes_data)
+        }
+        else
+        {
+            let brandFilter=shoes_data.filter(function(el){
+            return el.brand==b
+            })
+            if(brandFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(brandFilter)
+            }
+        }
+    }
+    let sortingCat = document.querySelectorAll("#category>input")
+    for(let i=0;i<sortingCat.length;i++)
+    {
+        let s = sortingCat[i].value
+        sortingCat[i].addEventListener("click",function(){
+            typeSort(s)
+        })
+    }
+    function typeSort(s)
+    {
+       if(s==="All")
+        {
+            displayProducts(shoes_data)
+        }
+        else
+        {
+            let catFilter=shoes_data.filter(function(el){
+            return el.type==s
+            })
+            if(catFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(catFilter)
+            }
+        }
+    }
+    let sortingOca = document.querySelectorAll("#oca>input")
+    for(let i=0;i<sortingOca.length;i++)
+    {
+        let o = sortingOca[i].value
+        sortingOca[i].addEventListener("click",function(){
+            catSort(o)
+        })
+    }
+    function catSort(o)
+    {
+       if(o==="All")
+        {
+            displayProducts(shoes_data)
+        }
+        else
+        {
+            let ocaFilter=shoes_data.filter(function(el){
+            return el.cat==o
+            })
+            if(ocaFilter.length==0)
+            {
+                alert("No products found")
+            }
+            else
+            {
+                displayProducts(ocaFilter)
+            }
+        }
+    }
+</script>
