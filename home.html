@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE>home</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- TOP NAV -->
+    <header>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">WOMENS</a> </li>
+            <li><a href="#">MEN</a> </li>
+            <li><a href="#">KIDS</a> </li>
+            <li><a href="LANDING.html">LIFE</a> </li>
+          </ul>
+          <ul id="ul2">
+            <li><a href="#">Signup for Newsletter</a> </li>
+            <li><a href="#">My account</a> </li>
+            <li><a href="#">My Wishlist ♡ </a> </li>
+            <li><a href="#">INDIA</a> </li>
+          </ul>
+        </nav>
+      </header> <br>
+      <!-- TOP NAV  end -->
+    <!-- Navbar -->
+    <div id="body">
+        <div>
+            <a href="LANDING.html"><img id="logo"
+                src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128"
+                alt="Error"></a></div>
+        <div id="miniNav">
+            <div>
+                <a href="New Arrivals.html">
+                    <p>NEW ARRIVALS</p>
+                </a>
+                <a href="DESIGNERS.html">
+                    <p>DESIGNERS</p>
+                </a>
+                <a href="home.html">
+                    <h3>HOME</h3>
+                </a>
+                <a href="On The Go.html">
+                    <p>ON THE GO</p>
+                </a>
+                <a href="Pets.html">
+                    <p>PETS</p>
+                </a>
+                <a href="Stories.html">
+                    <p>STORIES</p>
+                </a>
+            </div>
+            <div id="searchBar">
+                <form>
+                    <input type="text" placeholder="Search for....">
+                    <button><img
+                            src="data:image/png;base64,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"
+                            alt="Error"></button>
+                </form>
+            </div>
+        </div>
+        <div class="blink"><span>Free returns within 30 Days</span></div>
+        <!-- End of Navbar -->
+        <div>
+        </div>
+        <!-- Sort navbar -->
+        <div id="top">
+            <div>
+                <p>LIFE/Home >></p>
+            </div>
+            <div>
+                <select id="sort">
+                    <option value="Sort by">Sort by</option>
+                    <option value="asc">Price low-to-high</option>
+                    <option value="desc">Price high-to-low</option>
+                </select>
+            </div>
+        </div>
+        <!-- End of Sort navbar -->
+        <div id="bottom">
+            <div id="sidebar">
+                <p>Home</p>
+                <div id="cat">
+                    <p>Category</p>
+                    <form id="category">
+                        <input type="checkbox" name="ALL" id="ALL" value="ALL">
+                        <label for="ALL">ALL</label><br>
+
+                        <input type="checkbox" name="Home Decor" id="Home Decor" value="Home Decor">
+                        <label for="Home Decor">Home Decor</label><br>
+
+                        <input type="checkbox" name="Furniture" id="Furniture" value="Furniture">
+                        <label for="Furniture">Furniture</label><br>
+
+                        <input type="checkbox" name="Lighting" id="Lighting" value="Lighting">
+                        <label for="Lighting">Lighting</label><br>
+
+                        <input type="checkbox" name="Tabletop" id="Tabletop" value="Tabletop">
+                        <label for="Tabletop">Tabletop</label><br>
+                        <input type="checkbox" name="Home Textiles" id="Home Textiles" value="Home Textiles">
+                        <label for="Home Textiles">Home Textiles</label>
+                    </form>
+                </div>
+                <div id="brand">
+                    <!-- <p>NEW ARRIVALS</p> -->
+                    <p>Designer</p>
+                    <form id="designer">
+                        <input type="checkbox" name="All" id="All" value="All" checked>
+                        <label for="All">All</label><br>
+
+                        <input type="checkbox" name="101 Copenhagen" id="101_Copenhagen" value="101 COPENHAGEN">
+                        <label for="101_Copenhagen">101 Copenhagen</label><br>
+                        
+    
+                        <input type="checkbox" name="1882 Ltd" id="1882_Ltd" value="1882_Ltd">
+                        <label for="1882_Ltd">1882 Ltd</label><br>
+    
+                        <input type="checkbox" name="Assouline" id="Assouline" value="ASSOULINE">
+                        <label for="Assouline">Assouline</label><br>
+    
+                        <input type="checkbox" name="AYTM" id="AYTM" value="AYTM">
+                        <label for="AYTM">AYTM</label><br>
+    
+                        <input type="checkbox" name="Cappellini" id="Cappellini" value="Cappellini">
+                        <label for="Cappellini">Cappellini</label><br>
+    
+                        <input type="checkbox" name="Case Furniture" id="Case_Furniture" value="CASE FURNITURE">
+                        <label for="Case_Furniture">Case Furniture</label><br>
+    
+                        <input type="checkbox" name="Cassina" id="Cassina" value="CASSINA">
+                        <label for="Cassina">Cassina</label><br>
+    
+                        <input type="checkbox" name="Cire trudon" id="Cire_trudon" value="CIRE TRUDON">
+                        <label for="Cire_trudon">Cire trudon</label><br>
+    
+                        <input type="checkbox" name="Dolce&Gabbana Casa" id="Dolce&Gabbana_Casa" value="DOLCE&GABBANA CASA">
+                        <label for="Dolce&Gabbana_Casa">Dolce&Gabbana Casa</label><br>
+    
+                        <input type="checkbox" name="Editions Milano" id="Editions_Milano" value="Editions_Milano">
+                        <label for="Editions_Milano">Editions Milano</label><br>
+    
+                        <input type="checkbox" name="Fferrone Design" id="Fferrone_Design" value="Fferrone_Design">
+                        <label for="Fferrone_Design">Fferrone Design</label><br>
+    
+                        <input type="checkbox" name="Fornasetti Profumi" id="Fornasetti_Profumi" value="FORNASETTI PROFUMI">
+                        <label for="Fornasetti_Profumi">Fornasetti Profumi</label><br>
+    
+                        <input type="checkbox" name="Ginori 1735" id="Ginori_1735" value="GINORI 1735">
+                        <label for="Ginori_1735">Ginori 1735</label><br>
+    
+                        <input type="checkbox" name="L'Ojet" id="LOjet" value="L'OBJET">
+                        <label for="LOjet">L'Ojet</label><br>
+    
+                        <input type="checkbox" name="La DoubleJ" id="La_DoubleJ" value="LA DOUBLEJ">
+                        <label for="La_DoubleJ">La DoubleJ</label><br>
+    
+                        <input type="checkbox" name="Les-Otomans" id="Les-Otomans" value="Les-Otomans">
+                        <label for="Les-Otomans">Les-Otomans</label><br>
+    
+                        <input type="checkbox" name="Mad Et Len" id="Mad_Et_Len" value="Mad_Et_Len">
+                        <label for="Case_Furniture">Mad Et Len</label><br>
+    
+                        <input type="checkbox" name="Magis" id="Magis" value="Magis">
+                        <label for="Magis">Magis</label><br>
+    
+                        <input type="checkbox" name="Menu" id="Menu" value="MENU">
+                        <label for="Menu">Menu</label><br>
+    
+                        <input type="checkbox" name="Michael Verheyden" id="Michael_Verheyden" value="Michael_Verheyden">
+                        <label for="Michael_Verheyden">Michael Verheyden</label><br>
+    
+                        <input type="checkbox" name="Missoni" id="Missoni" value="MISSONI">
+                        <label for="Missoni">Missoni</label><br>
+    
+    
+                        <input type="checkbox" name="NasonMoretti" id="NasonMoretti" value="NASONMORETTI">
+                        <label for="NasonMoretti">NasonMoretti</label><br>
+    
+    
+                        <input type="checkbox" name="Nude" id="Nude" value="Nude">
+                        <label for="Nude">Nude</label><br>
+    
+                        <input type="checkbox" name="Once Milano" id="Once Milano" value="Once Milano">
+                        <label for="Once Milano">Once Milano</label><br>
+    
+                        <input type="checkbox" name="Reflections Copenhagen" id="Reflections_Copenhagen" value="Reflections_Copenhagen">
+                        <label for="Reflections_Copenhagen">Reflections Copenhagen</label><br>
+    
+                        <input type="checkbox" name="Rosenthal" id="Rosenthal" value="Rosenthal">
+                        <label for="Rosenthal">Rosenthal</label><br>
+    
+                        <input type="checkbox" name="Salvatori" id="Salvatori" value="Salvatori">
+                        <label for="Salvatori">Salvatori</label><br>
+    
+                        <input type="checkbox" name="Sargadelos" id="Sargadelos" value="Sargadelos">
+                        <label for="Sargadelos">Sargadelos</label><br>
+    
+                        <input type="checkbox" name="Serax" id="Serax" value="Serax">
+                        <label for="Serax">Serax</label><br>
+    
+                        <input type="checkbox" name="Taschen" id="Taschen" value="TASCHEN">
+                        <label for="Taschen">Taschen</label><br>
+    
+                        <input type="checkbox" name="Tom Dixon" id="Tom_Dixon" value="Tom_Dixon">
+                        <label for="Tom_Dixon">Tom Dixon</label><br>
+    
+                        <input type="checkbox" name="Venini" id="Venini" value="Venini">
+                        <label for="Venini">Venini</label><br>
+    
+                        <input type="checkbox" name="Vitra" id="Vitra" value="VITRA">
+                        <label for="Vitra">Vitra</label><br>
+    
+                        <input type="checkbox" name="Wastberg" id="Wastberg" value="WÄSTBERG">
+                        <label for="Wastberg">Wästberg</label><br>
+    
+                        <input type="checkbox" name="Zaha Hadid Design" id="Zaha_Hadid_Design" value="Zaha_Hadid_Design">
+                        <label for="Zaha_Hadid_Design">Zaha Hadid Design</label><br>
+    
+                        <input type="checkbox" name="Zanat" id="Zanat" value="ZANAT">
+                        <label for="Zanat">Zanat</label><br>
+    
+                    </form>
+                </div>
+                <div id="color-section">
+                    <p>Colors</p>
+                    <form id="colour">
+                        <input type="checkbox" name="All" id="All" value="All">
+                        <label for="All">All</label><br>
+
+                        <input type="checkbox" name="Beige" id="Beige" value="beige">
+                        <label for="Beige">Beige</label><br>
+
+                        <input type="checkbox" name="Blue" id="Blue" value="blue">
+                        <label for="Blue">Blue</label><br>
+
+                        <input type="checkbox" name="Brown" id="Brown" value="brown">
+                        <label for="Brown">Brown</label><br>
+
+                        <input type="checkbox" name="green" id="Green" value="green">
+                        <label for="Green">Green</label><br>
+
+                        <input type="checkbox" name="Pink" id="Pink" value="pink">
+                        <label for="Pink">Pink</label><br>
+
+                        <input type="checkbox" name="Grey" id="Grey" value="grey">
+                        <label for="Grey">Grey</label><br>
+
+                        <input type="checkbox" name="Orange" id="Orange" value="orange">
+                        <label for="Orange">Orange</label><br>
+
+                        <input type="checkbox" name="golden" id="golden" value="golden">
+                        <label for="golden">golden</label><br>
+
+                        <input type="checkbox" name="Black" id="Black" value="black">
+                        <label for="Black">Black</label><br>
+
+                        <input type="checkbox" name="White" id="White" value="white">
+                        <label for="White">White</label><br>
+
+                        <input type="checkbox" name="Multicoloured" id="Multicoloured" value="multicoloured">
+                        <label for="Multicoloured">Multicoloured</label><br>
+                    </form>
+                </div>
+            </div>
+            <div id="display">
+
+            </div>
+
+        </div>
+        <!-- bottom section -->
+        <footer id="FooterDetails">
+            <div>
+                <p>SERVICE & SECURITY</p>
+                <p>✓ Fast delivery</p>
+                <p>Delivery within 2 business days</p>
+                <p>✓ Free returns within 30 days</p>
+                <p>Convenient return service</p>
+                <p>✓ Secure payment and data protection</p>
+                <p>SSL encryption for secure transactions and personal data</p>
+    
+    
+            </div>
+            <div>
+                <p>MYTHERESA</p>
+                <p>About us</p>
+                <p> Trust & services</p>
+                <p>Sustainability</p>
+                <p> Press</p>
+                <p> Careers</p>
+                <p> Investor Relations</p>
+                <p> Affiliates</p>
+            </div>
+            <div>
+                <p>CUSTOMER CARE</p>
+                <p>Contact us</p>
+                <p>Shipping information</p>
+                <p>Secure payment</p>
+                <p>Exchanges</p>
+                <p>Returns</p>
+                <p>After sale service</p>
+                <p>Gift card</p>
+            </div>
+            <div>
+                <p>GET TREND UPDATES, STYLE TIPS AND MORE</p>
+                <input type="email" placeholder="your email address here"><label for="Signup">SIGNUP</label>
+                <p>Wishlist ♡</p>
+                <p>Receive personal notifications</p>
+                <p>Follow us on</p>
+                <div id="FatherLogo">
+                    <div><img id="LoGo"
+                            src="https://www.abacuspg.co.uk/wp-content/uploads/2016/06/linkedin-logo_318-50643.jpg"
+                            alt="x-icon"></div>
+                    <div><img id="LoGo" src="https://www.billingschamber.com/media/facebook.png" alt="x-icon"></div>
+                    <div><img id="LoGo" src="https://clipart.info/images/ccovers/1534043160twitter-logo-png-black.png"
+                            alt="x-icon"></div>
+                    <div><img id="LoGo"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pinterest_font_awesome.svg/512px-Pinterest_font_awesome.svg.png?20170908192524"
+                            alt="x-icon"></div>
+                    <div><img id="LoGo"
+                            src="https://i.etsystatic.com/26102212/r/il/a42611/3201074382/il_1140xN.3201074382_hy4l.jpg"
+                            alt="x-icon"></div>
+                    <div><img id="LoGo"
+                            src="https://www.nicepng.com/png/full/14-147850_youtube-play-button-youtube-play-button-black.png"
+                            alt="x-icon"></div>
+                    <div><img id="LoGo"
+                            src="https://static.vecteezy.com/system/resources/previews/001/195/120/non_2x/camera-film-polaroid-png.png"
+                            alt="x-icon"></div>
+                    <!-- <div><img id="LoGo" src="" alt="x-icon"></div>
+                    <div><img id="LoGo" src="" alt="x-icon"></div> -->
+                </div>
+            </div>
+        </footer>
+    
+        <footer id="LastFooter">
+            <div id="img">
+                <p>payment methods:</p><label>
+                    <img src="https://www.wisdom-drops.com/wp-content/uploads/2017/02/paypal-logo-300x117.png" alt="paypal">
+                </label>
+            </div>
+    
+            <div>
+                copyright &copy; 2006-2022 mytheresa.com
+            </div>
+    
+            <div>
+                <a href="https://www.mytheresa.com/int_en/service/terms-conditions/">terms of use</a>
+                <a href="https://www.mytheresa.com/int_en/service/privacy-policy/">privacy-policy</a>
+                <a href="https://www.mytheresa.com/int_en/service/imprint/">imprint</a>
+            </div>
+            <div id="imgg1">
+                <p>delivered by:</p><label id="im">
+                    <img id="imgg2" src="https://assets.dpdhl-brands.com/guides/dhl/guides/design-basics/logo-and-claim/logo/versions-01.png" alt="dhl">
+                </label>
+            </div>
+        </footer>
+</body>
+
+</html>
+<script>
+    let new_arr_data = [{
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/67/P00678117.jpg",
+        brand: "WÄSTBERG",
+        name: "w102 Chipperfield table lamp",
+        price: 585,
+        cat: "Home Decor",
+        color: "golden",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e7/P00679311.jpg",
+        brand: "FORNASETTI PROFUMI",
+        name: "x Comme des Garçons Comme des Fornà Large Otto candle",
+        price: 245,
+        cat: "Home Decor",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/44/P00679208.jpg",
+        brand: "ASSOULINE",
+        name: "Tulum Gypset book",
+        price: 85,
+        cat: "Home Decor",
+        color: "green",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/6f/P00679217.jpg",
+        brand: "CASSINA",
+        name: "Bo Maki Small vase",
+        price: 195,
+        cat: "Home Decor",
+        color: "golden",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/5c/P00678133.jpg",
+        brand: "VITRA",
+        name: "Chronopak desk clock",
+        price: 305,
+        cat: "Home Decor",
+        color: "brown",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/27/P00678295.jpg",
+        brand: "TASCHEN",
+        name: "Bjarne Mastenbroek. Dig it! Building Bound to the Ground book",
+        price: 249,
+        cat: "Home Decor",
+        color: "black",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/61/P00703787.jpg",
+        brand: "DOLCE&GABBANA CASA",
+        name: "Murano Small glass vase",
+        price: 79,
+        cat: "Home Decor",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/da/P00679335.jpg",
+        brand: "GINORI 1735",
+        name: "Rose and Saffron Catene candle",
+        price: 249,
+        cat: "Home Decor",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c4/P00679372.jpg",
+        brand: "CIRE TRUDON",
+        name: "Héméra alabaster candle",
+        price: 295,
+        cat: "Home Decor",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/6a/P00678149.jpg",
+        brand: "VITRA",
+        name: "Panton chair",
+        price: 269,
+        cat: "Furniture",
+        color: "pink",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/7f/P00678152.jpg",
+        brand: "VITRA",
+        name: "Panton chair",
+        price: 269,
+        cat: "Furniture",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/dc/P00678063.jpg",
+        brand: "ZANAT",
+        name: "Unity stool",
+        price: 1225,
+        cat: "Furniture",
+        color: "brown",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/17/P00678583.jpg",
+        brand: "MISSONI",
+        name: "Kew Small pouf",
+        price: 365,
+        cat: "Furniture",
+        color: "multicoloured",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f0/P00678647.jpg",
+        brand: "MENU",
+        name: "Androgyne side table base",
+        price: 255,
+        cat: "Furniture",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c5/P00678655.jpg",
+        brand: "MENU",
+        name: "Androgyne side table base",
+        price: 155,
+        cat: "Furniture",
+        color: "black",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/3a/P00679203.jpg",
+        brand: "AYTM",
+        name: "Curva stool",
+        price: 185,
+        cat: "Furniture",
+        color: "golden",
+        qty: 1
+    },{
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/13/P00679098.jpg",
+        brand: "AYTM",
+        name: "Curva stool",
+        price: 185,
+        cat: "Furniture",
+        color: "black",
+        qty: 1
+    },
+     {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/95/P00678118.jpg",
+        brand: "WÄSTBERG",
+        name: "w182 Pastille table lamp",
+        price: 235,
+        cat: "Lighting",
+        color: "black",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/72/P00678126.jpg",
+        brand: "WÄSTBERG",
+        name: "w171 Alma pendant lamp",
+        price: 375,
+        cat: "Lighting",
+        color: "white",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/a9/P00679380.jpg",
+        brand: "CASE FURNITURE",
+        name: "Solid Small Table Light lamp",
+        price: 249,
+        cat: "Lighting",
+        color: "grey",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d7/P00679215.jpg",
+        brand: "CASE FURNITURE",
+        name: "Solid Small Table Light lamp",
+        price: 249,
+        cat: "Lighting",
+        color: "black",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/72/P00678126.jpg",
+        brand: "WÄSTBERG",
+        name: "w171 Alma pendant lamp",
+        price: 375,
+        cat: "Lighting",
+        color: "brown",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/dc/P00678877.jpg",
+        brand: "LA DOUBLEJ",
+        name: "Libellula set of 6 dessert plates",
+        price: 279,
+        cat: "Tabletop",
+        color: "multicoloured",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/fa/P00678728.jpg",
+        brand: "L'OBJET",
+        name: "Niki + Simon brass salt and pepper shakers",
+        price: 389,
+        cat: "Tabletop",
+        color: "golden",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/bc/P00678835.jpg",
+        brand: "LA DOUBLEJ",
+        name: "Transylvania Mix large tablecloth",
+        price: 265,
+        cat: "Tabletop",
+        color: "multicoloured",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/3f/P00678567.jpg",
+        brand: "NASONMORETTI",
+        name: "Bolla vase",
+        price: 119,
+        cat: "Tabletop",
+        color: "green",
+        qty: 1
+    },
+     {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/7c/P00678569.jpg",
+        brand: "NASONMORETTI",
+        name: "Bolla vase",
+        price: 119,
+        cat: "Tabletop",
+        color: "yellow",
+        qty: 1
+    } ,{
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/8b/P00679233.jpg",
+        brand: "GINORI 1735",
+        name: "Oriente Italiano mug",
+        price: 89,
+        cat: "Tabletop",
+        color: "pink",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ee/P00679226.jpg",
+        brand: "GINORI 1735",
+        name: "Il Viaggio di Nettuno set of 4 bread plates",
+        price: 189,
+        cat: "Tabletop",
+        color: "multicoloured",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/04/P00678885.jpg",
+        brand: "LA DOUBLEJ",
+        name: "Aphrodite cushion",
+        price: 149,
+        cat: "Home Textiles",
+        color: "beige",
+        qty: 1
+    }, {
+        img: "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/a4/P00678884.jpg",
+        brand: "LA DOUBLEJ",
+        name: "Hera velvet cushion",
+        price: 149,
+        cat: "Home Textiles",
+        color: "multicoloured",
+        qty: 1
+    }]
+    
+    let newArr = JSON.parse(localStorage.getItem("life-Data")) || []
+    document.querySelector("#sort").addEventListener("change", function () {
+        sortMe(new_arr_data)
+    })
+    function sortMe(new_arr_data) {
+        let req = document.querySelector("#sort").value;
+        if (req == "asc") {
+            let asc = new_arr_data.sort(function (a, b) {
+                if (a.price > b.price) return 1
+                if (a.price < b.price) return -1
+                return 0
+            })
+            displayProducts(asc)
+        }
+        else if (req == "desc") {
+            let desc = new_arr_data.sort(function (a, b) {
+                if (a.price > b.price) return -1
+                if (a.price < b.price) return 1
+                return 0
+            })
+            displayProducts(desc)
+        }
+    }
+    displayProducts(new_arr_data)
+    
+    function displayProducts(new_arr_data) {
+        document.querySelector("#display").innerHTML = ""
+        new_arr_data.forEach(function (el) {
+            let child_div = document.createElement("div")
+            // add to wishlist start
+            let holder = document.createElement("div")
+            holder.setAttribute("class", "holder")
+            let wish = document.createElement("button")
+            let heart = document.createElement("i")
+            heart.setAttribute("class", "fas fa-heart")
+            wish.append(heart)
+            wish.style.color = "grey"
+            wish.setAttribute("class", "btn1")
+            wish.addEventListener("click", function () {
+                if (toggle(el, wish) == true) {
+                    alert("Item already extists in wishlist")
+                }
+                else {
+                    if (wish.style.color == "grey") {
+                        wish.style.color = "red"
+                    }
+                    else {
+                        wish.style.color = "grey"
+                    }
+                    newArr.push(el)
+                    alert("added")
+                    localStorage.setItem("life-Data", JSON.stringify(newArr))
+                }
+            })
+            holder.append(wish);
+            // add to wishlist end
+
+            let img = document.createElement("img")
+            img.setAttribute("src", el.img)
+            let brand = document.createElement("p")
+            brand.innerText = el.brand;
+            let name = document.createElement("p")
+            name.innerText = el.name;
+            let price = document.createElement("p")
+            price.innerText = "€" + " " + el.price;
+            child_div.append(holder, img, brand, name, price)
+            document.querySelector("#display").append(child_div)
+        });
+    }
+    
+    function toggle(el, wish) {
+        let filtered = newArr.filter(function (elem) {
+            return el.name == elem.name
+        })
+        if (filtered.length > 0) {
+            return true
+        }
+        else {
+            return false
+        }
+    }
+
+    let sorting = document.querySelectorAll("#colour>input")
+    for (let i = 0; i < sorting.length; i++) {
+        let c = sorting[i].value
+        sorting[i].addEventListener("click", function () {
+            colourSort(c)
+        })
+    }
+    function colourSort(c) {
+        if (c == "All") {
+            displayProducts(new_arr_data)
+        }
+        else {
+            let filtered = new_arr_data.filter(function (el) {
+                return el.color == c
+            })
+            if (filtered.length == 0) {
+                alert("No products found")
+            }
+            else {
+                displayProducts(filtered)
+            }
+        }
+    }
+    
+    let sortingBrand = document.querySelectorAll("#designer>input")
+    for (let i = 0; i < sortingBrand.length; i++) {
+        let b = sortingBrand[i].value
+        sortingBrand[i].addEventListener("click", function () {
+            brandSort(b)
+        })
+    }
+    function brandSort(b) {
+        if (b === "All") {
+            displayProducts(new_arr_data)
+        }
+        else {
+            let brandFilter = new_arr_data.filter(function (el) {
+                return el.brand == b
+            })
+            if (brandFilter.length == 0) {
+                alert("No products found")
+            }
+            else {
+                displayProducts(brandFilter)
+            }
+        }
+    }
+    
+    let sortingCat = document.querySelectorAll("#category>input")
+    for (let i = 0; i < sortingCat.length; i++) {
+        let s = sortingCat[i].value
+        sortingCat[i].addEventListener("click", function () {
+            catSort(s)
+        })
+    }
+    function catSort(s) {
+        if (s === "All") {
+            displayProducts(new_arr_data)
+        }
+        else {
+            let catFilter = new_arr_data.filter(function (el) {
+                return el.cat == s
+            })
+            if (catFilter.length == 0) {
+                alert("No products found")
+            }
+            else {
+                displayProducts(catFilter)
+            }
+        }
+    }
+</script>
