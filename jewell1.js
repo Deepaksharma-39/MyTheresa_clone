@@ -202,7 +202,7 @@ let jewelData = [
 
 
 
-let jwlrdata = JSON.parse(localStorage.getItem("womens-jewell")) || []
+let jwlrdata = JSON.parse(localStorage.getItem("kids-NewArr")) || []
 document.querySelector("#sort").addEventListener("change", function () {
     sortMe(jewelData)
 })
@@ -251,7 +251,7 @@ function displayProducts(jewelData) {
                 }
                 jwlrdata.push(el)
                 alert("added")
-                localStorage.setItem("womens-jewell", JSON.stringify(jwlrdata))
+                localStorage.setItem("kids-NewArr", JSON.stringify(jwlrdata))
             }
         })
         holder.append(wish)

@@ -196,7 +196,7 @@ let accdata=[
 
 
 
-let jwlrdata = JSON.parse(localStorage.getItem("womens-accessories")) || []
+let jwlrdata = JSON.parse(localStorage.getItem("kids-NewArr")) || []
 document.querySelector("#sort").addEventListener("change", function () {
     sortMe(accdata)
 })
@@ -245,7 +245,7 @@ function displayProducts(accdata) {
                 }
                 jwlrdata.push(el)
                 alert("added")
-                localStorage.setItem("womens-accessories", JSON.stringify(jwlrdata))
+                localStorage.setItem("kids-NewArr", JSON.stringify(jwlrdata))
             }
         })
         holder.append(wish)

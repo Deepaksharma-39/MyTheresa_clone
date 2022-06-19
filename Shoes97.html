@@ -756,7 +756,7 @@ form>input{
         type:"shoes",
         qty:1
     }]
-    let shoesData=JSON.parse(localStorage.getItem("kids-Shoes"))||[]
+    let shoesData=JSON.parse(localStorage.getItem("kids-NewArr"))||[]
     document.querySelector("#sort").addEventListener("change",function(){
           sortMe(shoes_data)
     })
@@ -813,7 +813,7 @@ form>input{
                     }
                     shoesData.push(el)
                     alert("added")
-                    localStorage.setItem("kids-Shoes",JSON.stringify(shoesData))
+                    localStorage.setItem("kids-NewArr",JSON.stringify(shoesData))
                 }
             })
             holder.append(wish)

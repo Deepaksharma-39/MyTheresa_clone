@@ -196,7 +196,7 @@ let bagsData = [
     //     console.log(bagsData[i])
     // }
 
-    let jwlrdata=JSON.parse(localStorage.getItem("womens-bags"))||[]
+    let jwlrdata=JSON.parse(localStorage.getItem("kids-NewArr"))||[]
     document.querySelector("#sort").addEventListener("change",function(){
           sortMe(bagsData)
     })
@@ -253,7 +253,7 @@ let bagsData = [
                     }
                     jwlrdata.push(el)
                     alert("added")
-                    localStorage.setItem("womens-bags",JSON.stringify(jwlrdata))
+                    localStorage.setItem("kids-NewArr",JSON.stringify(jwlrdata))
                 }
             })
             holder.append(wish)

@@ -744,7 +744,7 @@ a{
         color:"blue",
         qty:1
     }]
-    let boysData=JSON.parse(localStorage.getItem("kids-Boys"))||[]
+    let boysData=JSON.parse(localStorage.getItem("kids-NewArr"))||[]
     document.querySelector("#sort").addEventListener("change",function(){
           sortMe(boys_data)
     })
@@ -801,7 +801,7 @@ a{
                     }
                     boysData.push(el)
                     alert("added")
-                    localStorage.setItem("kids-Boys",JSON.stringify(boysData))
+                    localStorage.setItem("kids-NewArr",JSON.stringify(boysData))
                 }
             })
             holder.append(wish)

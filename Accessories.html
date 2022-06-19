@@ -768,7 +768,7 @@ a{
         color:"grey",
         qty:1
     }]
-    let babysData=JSON.parse(localStorage.getItem("kids-Babys"))||[]
+    let babysData=JSON.parse(localStorage.getItem("kids-NewArr"))||[]
     document.querySelector("#sort").addEventListener("change",function(){
           sortMe(babys_data)
     })
@@ -825,7 +825,7 @@ a{
                     }
                     babysData.push(el)
                     alert("added")
-                    localStorage.setItem("kids-Babys",JSON.stringify(babysData))
+                    localStorage.setItem("kids-NewArr",JSON.stringify(babysData))
                 }
             })
             holder.append(wish)
