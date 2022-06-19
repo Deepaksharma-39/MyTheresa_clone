@@ -18,8 +18,8 @@
         </div>
   
         <div id="sign">
-            <div>Signup for Newsletter</div>
-            <div id="account">My Account</div>
+            <div><a href="myAccount.html">Signup for Newsletter</a> </div>
+          <div id="account"><a href="myAccount.html">My Account</a> </div>
             <div> <a href="AddToCart"> My Wishlist ♡</a></div>
             <div>India | English</div>
         </div>
@@ -474,7 +474,7 @@
         color:"brown",
         qty:1
     }]
-    let babysData=JSON.parse(localStorage.getItem("kids-Babys"))||[]
+    let babysData=JSON.parse(localStorage.getItem("CartArray"))||[]
     document.querySelector("#sort").addEventListener("change",function(){
           sortMe(babys_data)
     })
@@ -531,7 +531,7 @@
                     }
                     babysData.push(el)
                     alert("added")
-                    localStorage.setItem("kids-Babys",JSON.stringify(babysData))
+                    localStorage.setItem("CartArray",JSON.stringify(babysData))
                 }
             })
             holder.append(wish)

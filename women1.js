@@ -134,7 +134,7 @@ let clothData=[
 
 
 
-let cladata = JSON.parse(localStorage.getItem("womens-new arrival")) || []
+let cladata = JSON.parse(localStorage.getItem("CartArray")) || []
 document.querySelector("#sort").addEventListener("change", function () {
     sortMe(clothData)
 })

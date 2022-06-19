@@ -202,7 +202,7 @@ let shoesData=[
 
 ]
 
- let jwlrdata=JSON.parse(localStorage.getItem("womens-shoes"))||[]
+ let jwlrdata=JSON.parse(localStorage.getItem("CartArray"))||[]
 document.querySelector("#sort").addEventListener("change",function(){
       sortMe(shoesData)
 })
@@ -259,7 +259,7 @@ function displayProducts(shoesData)
                 }
                 jwlrdata.push(el)
                 alert("added")
-                localStorage.setItem("womens-shoes",JSON.stringify(jwlrdata))
+                localStorage.setItem("CartArray",JSON.stringify(jwlrdata))
             }
         })
         holder.append(wish)

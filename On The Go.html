@@ -329,7 +329,7 @@
         qty: 1
     }]
     
-    let newArr = JSON.parse(localStorage.getItem("life-Data")) || []
+    let newArr = JSON.parse(localStorage.getItem("CartArray")) || []
     document.querySelector("#sort").addEventListener("change", function () {
         sortMe(new_arr_data)
     })
@@ -380,7 +380,7 @@
                     }
                     newArr.push(el)
                     alert("added")
-                    localStorage.setItem("life-Data", JSON.stringify(newArr))
+                    localStorage.setItem("CartArray", JSON.stringify(newArr))
                 }
             })
             holder.append(wish);

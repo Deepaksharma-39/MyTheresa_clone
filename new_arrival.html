@@ -780,7 +780,7 @@ a{
         color: "Multicolored",
         qty: 1
     }]
-    let newArr = JSON.parse(localStorage.getItem("kids-NewArr")) || []
+    let newArr = JSON.parse(localStorage.getItem("CartArray")) || []
     document.querySelector("#sort").addEventListener("change", function () {
         sortMe(new_arr_data)
     })
@@ -835,7 +835,7 @@ a{
                     }
                     newArr.push(el)
                     alert("added")
-                    localStorage.setItem("kids-NewArr", JSON.stringify(newArr))
+                    localStorage.setItem("CartArray", JSON.stringify(newArr))
                 }
             })
             holder.append(text, wish)

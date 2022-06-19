@@ -1,6 +1,6 @@
 let loginDet=JSON.parse(localStorage.getItem("userDet"))||[]
 console.log(loginDet)
-let cartData = JSON.parse(localStorage.getItem("kids-NewArr"))||[]
+let cartData = JSON.parse(localStorage.getItem("CartArray"))||[]
 DisplayData(cartData)
 
 function DisplayData(cartData) {
@@ -54,7 +54,7 @@ function DeleteRow(ele) {
     cartData = cartData.filter(function (element) {
         return element.name != Name;
     })
-    localStorage.setItem("kids-NewArr", JSON.stringify(cartData));
+    localStorage.setItem("CartArray", JSON.stringify(cartData));
     DisplayData(cartData)
 }
 
@@ -63,7 +63,7 @@ function GetQuantityChangeS(ele, qty) {
     console.log(x)
     ele.qty = x;
     // console.log(x);
-    localStorage.setItem("kids-NewArr", JSON.stringify(cartData));
+    localStorage.setItem("CartArray", JSON.stringify(cartData));
     DisplayData(cartData)
     DisplayTotalPrice();
 }
