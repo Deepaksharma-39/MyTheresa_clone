@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Luxury Fashoin & Designer Shopping | Mytheresa</title>
+</head>
+<style>
+     /*1st header*/
+     #topp {
+    /* border: 1px solid black; */
+    width: 92%;
+    margin: auto;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#categoryy {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+#categoryy a:hover{
+    background-color: #f2f2f2 ;
+    padding: 9px 15px 9px 15px;
+}
+#categoryy a {
+    text-decoration: none;
+    color: #666666;
+}
+
+
+#signn {
+    height: 100%;
+    width: 38%;
+    color: #878589;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#bottom{
+    display: flex;
+    margin-top: 30px;
+    /* border: 1px solid teal; */
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* border: 1px solid red; */
+}
+#display{
+    width: 70%;
+    /* border:1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px 10px;
+    margin: auto;
+    margin-top: 0px;
+}
+#display>div>img{
+    width: 100%;
+}
+#display>div{
+    padding: 20px;
+}
+#display>div>p{
+    margin: auto;
+    text-align: center;
+}
+#display>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#display>div>img+p{
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+#display>div>p+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7f7c78 ;
+}
+#display>div>p:last-child{
+    font-weight: bold;
+    color: black;
+}
+.btn1{
+    background: transparent;
+    border: grey;
+    outline: none;
+}
+.btn1 i:hover{
+    cursor: pointer;
+}
+.holder{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+}
+.holder>button{
+    display: block;
+}
+.holder>div{
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #757575;
+    line-height: 0px;
+    width: 33.8%;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+}
+#top{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+}
+#top>div:first-child>p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: grey;
+}
+a{
+    text-decoration: none;
+    color:  #818d9d;
+}
+#top>div:last-child>select{
+    margin-right: 100px;
+    outline: none;
+    border: transparent;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+/* NAVBAR CSS */
+#miniNav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid grey;
+    /* border: 1px solid red; */
+}
+#miniNav>div:first-child{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    color: #818d9d;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 2.5%;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+#miniNav>div:last-child{
+    padding-right: 2.5%;
+}
+#miniNav>div:last-child>form{
+    border: 1px solid black;
+    height: 100%;
+}
+#searchBar>form>button>img{
+    width: 15px;
+    background-color: white;
+}
+#searchBar>form>input{
+   border: none;
+   height: 30px;
+   outline: none;
+}
+#searchBar>form>button{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+.line-2 {
+    border-top: 1px solid grey;
+    margin-top: 0px;
+  }
+  #miniNav>div:first-child>p:last-child{
+    color: red;
+  }
+#body>div:first-child{
+    width: 20%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#logo{
+    width: 100%;
+}
+.blink{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    top: 51px;
+    background-color: white;
+}
+.blink>span{
+    font-size: 15px;
+    animation: blink 2s linear infinite;
+    color: red;
+}
+    #header_main{
+        
+        width: 100%;
+        height: 260px;
+    }
+    .page_header{
+        
+        width: 100%;
+        height: 60px;
+        display: flex;
+    }
+    .page_header >div{
+        display: flex;
+        width: 40%;
+        height: 60px;
+        margin: auto;
+
+    }
+    .buttton{
+        height: 50px;
+        background-color: white;
+        border: none;
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        width: 60px;
+        padding-bottom: 20px;
+    }
+    .button1{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        font-weight: bold;
+        color: rgb(104, 103, 103);
+        height: 30px;
+        margin: 8px 0px 0px 25px;
+        border: none;
+    }
+    #main_head{
+        height: 100px;
+
+    }
+    #header{
+        border: none;
+        background-color: white;
+    }
+    #header > img{
+        width: 290px;
+        margin:25px 0px 0px 515px;
+    }
+    #bag{
+        font-size: 13px;
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        margin:0px 0px 0px 1100px;
+        background-color: white;
+        border: none;
+
+    }
+    #bar1{
+        height: 30px;
+        width: 90%;
+        margin:12px 0px 0px 68px ;
+    }
+    #bar1> button{
+        font-size: 13px;
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background-color: white;
+        border: none;
+        color: rgb(97, 97, 97);
+        margin: 3px;
+
+    }
+    #input1{ 
+        height: 25px;
+        width: 250px;
+    }
+    #last_text{
+        color: red;
+        text-align: center;
+        box-shadow: 0 -1px 1px -1px rgb(119, 119, 119);
+    }
+    #f_img{
+        width: 1200px;
+        height: 100%;
+        background-color: white;
+        border: none;
+        margin: auto;
+        
+    }
+    #main_front{
+        width: 100%;
+        height: 550px;
+        display: flex;
+       
+
+    }
+    #f_img > img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #new_product{
+        text-align: center;
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 400;
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-style: normal;
+
+
+    }
+    #new_div{
+        height: 400px;
+        
+        display: flex;
+    }
+    #new_div > div{
+        
+        width: 200px;
+        height: 300px;
+    }
+    .front_img{
+        
+        width: 100%;
+        height: 580px;
+        display: flex;
+    }
+    #front_div{
+        background-color: black;
+        width: 590px;
+        height: 580;
+        margin-left: 80px;
+        color: white;
+        
+        
+    }
+    #front_img2{
+        width: 590px;
+        height: 580px;
+    }
+    .img_letter{
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 65px;
+        font-style: normal;
+        margin:200px 0px 0px 90px;
+    }
+    .img_ptag{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 400;
+        font-style: normal;
+        width: 400px;
+        margin-left: 90px;
+
+    }
+    .img_bottom{
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        font-style: normal;
+        background-color: white;
+        border: none;
+        margin:20px 0px 0px 90px;
+        height: 31px;
+        width: 126px;
+    }
+    #front_img1{
+        width: 590px;
+        height: 580px;
+        margin-left: 80px;
+    }
+    #front_div1{
+        background-color: black;
+        width: 590px;
+        height: 580;
+        color: white;
+        
+        
+    }
+    #section1{
+        width: 1180px;
+        height: 550px;
+        
+        margin:20px 0px 0px 84px;
+        box-shadow: 0 -1px 1px -1px rgb(119, 119, 119);
+        
+
+    }
+    #h1_tag1{
+        text-align: center;
+        font-size: 15px;
+        font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+    .p_tag1{
+        width: 889px;
+        font-size: 12px;
+        line-height: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 100px;
+    }
+
+    /*footer
+
+    */
+    #divs{
+    width: 94%;
+    margin-left: 35px;
+    
+    height: 100px;
+}
+#divs>h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    line-height: 44px;
+}
+#divs>div{
+    width: 100%;
+    height: 100%;
+    
+}
+#divs>div>div>a>img{
+    width: 150px;
+    margin-left: 530px;
+}
+#bottomLast{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    width: 90%;
+    padding-top: 50px;
+  }
+  
+  dd{
+  margin-top: 10px;
+  
+  }
+  #divs2{
+    width: 94%;
+    margin-left: 35px;
+   
+    height: 100px;
+    display: flex;
+  }
+  #divs2>div>p{
+   text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
+   
+  }
+ .img1{
+    width: 110px;
+    margin-left: 10px;
+ }
+ .tt{
+    margin-left: 900px;
+ }
+ #divs2>div>div>p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
+   
+ }
+  
+ .popo{
+    width: 80px;
+    margin-left: 20px;
+ }
+</style>
+<body>
+    <div id="topp">
+        <div id="categoryy">
+            <a href="index.html">WOMEN</a>
+            <a href="Myteresa.html">MEN</a>
+            <a href="LANDING.html">KIDS</a>
+            <a href="LANDING-LIFE.html">LIFE</a>
+        </div>
+
+        <div id="signn">
+            <div>Signup for Newsletter</div>
+            <div id="account"> <a href="myAccount.html">My Account</a> </div>
+            <div>
+                <a href="AddToCart.html">My Wishlist ♡</a>
+            </div>
+            <div>India | English</div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <div id="body">
+        <div><img id="logo"
+                src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128"
+                alt="Error"></div>
+        <div id="miniNav">
+            <div>
+                <a href="new_arrival.html">
+                    <p>NEW ARRIVALS</p>
+                </a>
+                <a href="DESIGNERS.html">
+                    <p>DESIGNERS</p>
+                </a>
+                <a href="Clothing.html">
+                    <p>CLOTHING</p>
+                </a>
+                <a href="Shoes97.html">
+                    <p>SHOES</p>
+                </a>
+                <a href="Accessories.html">
+                    <p>ACCESSORIES</p>
+                </a>
+                <a href="New Season.html">
+                    <p>NEW SEASON</p>
+                </a>
+                <a href="VACATION.html">
+                    <p>VACATION SHOP</p>
+                </a>
+                <a href="sales97.html">
+                    <p>SALE</p>
+                </a>
+            </div>
+            <div id="searchBar">
+                <form>
+                    <input type="text" placeholder="Search for....">
+                    <button><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMVEX///8AAADKysrHx8fNzc2IiIj4+Pjq6ur7+/vt7e3X19eAgIDn5+fc3NzExMTj4+MbGxuoqKh4eHiRkZFKSkpZWVm1tbUrKysiIiLz8/NwcHBeXl6cnJyurq48PDwMDAxLS0soKCh8fHygoKC7u7s4ODhlZWUeHh4xMTE6OjoLCwsVFRVTU1NCQkKVlZV44B4NAAAH3ElEQVR4nO2dbXvqLAyAfWt1depcfa0653TTzen//3nP9jghlba2mgQO5f54rjNCJIUEAqlUHA6Hw+FwOBwOxz9LM2h0N4v+er7uLzbdRtDU3SFEOqNwuKqqrIbhKNDduXtpbryXBN0gL97oXx1Ov+Edrmh35tBu+Lq7W5hu9JRTvRNPUVd3l4vQaRfS7ky7o7vj+WiNXm/S75fByHxrnc7HN+v3y+Q41a1CJn54l3onPHPH0T9m9Pvp/TCM2l44D712NDy8Z01ER0N1HKV0ejt7WwS9S+Ob9oJRe5b2JwstGmQTJC9+UV/RDTLt9Z8T/+5gmrfT8hJ6OT42cv1xcEyandot4j4Xoj5ROrgLi4xCEO6UFp7qZP0tjDqAH/WiI9CqfSiteCS9LU5Pca7bvZsaelR+qZfbGkJmo/zyt39ALWU93SD29EYu++Q93NXc9HIcdVtqaxbvz+x+s+pdfI8zrXPq9D3Wmad8q8M1GttYq+8aPdUelUHFTfVL23wTfMF+7HAG8K/p2PL4pcnBCWI/dIT7ubSiWOtaVOzEuoDvKo9i7WsI/2MKrih+485Kq4q9PZD+QjPbTaGztH8kkZGKD6OBIZkYuDROeMNiGAy2CeXATbsDoRwFONHRulVwZYxIJcXosykYV7FPLEvQYDLRE1BFTKcigykQ+cwgD27k8Mw2IJz4ZhEI9tBnHPLARzjmCWx84KQyfIognvjiOvhrAhefPs74lsL4zsO6jB/GQso6UssCgPOCEa0kX0pidTGgE0U7n4KZ+74dp6I0peA3SjkgZCI2FgUQLlIGUnIpZFmYYgw5ZAN3jT9DBNgpnfM2EDLmZDLSmQvpAyoRNSFiSyUikwn5IMoh1JP7Ik9IXmkEyN1DHodbRbrgNLuLMrDXdXRZFz0gCfcfqW0kB/I7oZjLpWuoLwNNeuAEk3lLBGkr/MZzI06ldvhty6VCZ66LDG3wFwzpc+s8sZSxDf4OkWiafnctC7lFjN2y/Mb1JivJRRl7vhOLIW/gqyJOa7CXRJFiFyI3XBSR+4E8pUvj0J2pLINw3M9FRC5j1GZvQUQYuIu+CLD1zqS/iNkUNdSfih9O/50BMatPME+epfEjNnorJFOCOKsgcAcL83nuDOYZhrB93Xl0v3gUnRHBNfcuaRJi5xRxQ6olTJ855SMRGYrjtfkg2jThIoQ8g8Y7WBCxIdlGZSHEN1NDa1LEnRzH9tcRUQBeLC58NhOmUjCZ4vltIr5nS2jJpI9vUsIrNeOOh5gW8BLqRDa37tDphAjlPtGaXJ6bNOKCh/SSn9CaNGrBhwkvaE0apiGBU3NukC1FKJvmkkzDPW/+RRoPe6dhYcpjpfbPNIZoSLBa2L/im+q1vaA1ab/nbX/0ZGoEvEZrUuxiMN5ayYBgF8P+nSj7dxPt3xGWVxCM2tV/RWzUzJMZzNNasQLpP+QGHhbm6mzSCamcFDC9ZHnKrd9voznltj9TwaRsE5GAiZttYk7GkOwJcoKd2PzhvLGWBFXWVwky9+pUxlEQaaTos7po2dYMWkOyoOVyj3/gLu+t2ZrJXhG3ESb4bedGJPJSpJ/Jy3GW3igx7FYQSSgeaR9EOYQ0W2KB9kGUQ0i0KJtzw5Jqz09efdoTSchGPjpMdtVZ3uHUcdP5SD6Esdvq/NuKLLfVwcMmOl8coHs9TeurEeBRFdIg/E3K4c1akP4GcXADXm/hPaWRK1WV+MFWTS/wgNeKyT8P+cHreUWJcpo5AV/W5VoyoEyGdBDwmtmOJ9xvgfeYWTIJwIt0rxzy4CzDswyD+ZTlYB8+tMl0Bg1fhiR9lup/4BOmTC9DViprIJTzdU+87JKrwOcoaV0MOIKsN3YGTIKBl4h49yAP/gqI/iATEysisMRLn8nDI8Nr1/5nNQ7vAXQHPqq/p9gZCvbVS5hVjMnG9zUWin5VzDyvPFxUDkBuPUpSkFvFzhLKRrXUILVoGa+h9uLFRO4ooRMnsT6WHhUvqrDscKTX1epW+gz1spLO8P6QsTlLVkyXiuTVkPQbakJFq9t1fMhZIZJ5FJWqZF+3ViXLX6CVWcWEynLD4oZUGyqthDXln85wZxDW1AKGy7DI1nQnVOsLrurxYFuvin7SBHEIG7lWyCBMqn95KriaPorchloJEgtwbz8W2a5OZ/Ghjt4Pu/OfGaRiaqXV6sFbBNPLPSR/GixSC3dvwca2OYb6Wy1XjXck79/RW9sLj6HXfou+3zP+5zJeLdckFSvTrIrAeQkv42mTDPVnHOfL1P7kIqnasVkq/nyPg9QOXWOQcrBklKH+0vGyalKnsW2nT7vpKuoZxR9jrSWXak7nuZu5Y2+aoZ46lVDFOJmVd3273jhDPdHreq9ZK0i1uh88b/L56Yaq+MNDZ+RFgwQ9D5E36hSItIw0VEnLf2xsFv31er5e9xebxqNf/KDMcBUxMNdQ0SiBiiUw1BKoWAJDNc+BQ8cZqg2UQMUSGGoJVCyBobpFwwbMObYhowTfYqkN1RoVS2CoJVCxBIZaAhVLYKjOgbOBUhuqNSqWwFBLoGIJDLUEKqYaqp5S8BSkqGhIwQMUEg11bEa9AyQSVFyZ8DIwIoqhLi0y0RMXozixTsELFceWmegJYKgTKxUEKtr3DZ75M9SVtQr+qWjnN3jmx1D3Vi30KjUblwmHw+FwOBwOh8NhFP8BxfhYVXrDP/oAAAAASUVORK5CYII="
+                            alt="Error"></button>
+                </form>
+            </div>
+        </div>
+        <div class="blink"><span>Enjoy free shipping for a short time only</span></div>
+        <!-- End of Navbar -->
+        <div>
+        </div>
+    <div id="main_front">
+        <button id="f_img">
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/MW_HP_CW24_2022/DESKTOP_2X_20220613124405.jpg?imwidth=1180&imdensity=1" alt="">
+        </button>
+        
+    </div>
+    <h1 id="new_product">New Arrivals</h1>
+
+    <!--Slide here-->
+    <div class="front_img">
+        <div id="front_div">
+            <h1 class="img_letter">Pre-Fall 2022</h1>
+            <p class="img_ptag">The new-season collections spotlight crisp cuts and restorative hues</p>
+            <button class="img_bottom">SHOP NOW >></button>
+        </div>
+        
+            <img id="front_img2" src="https://img.mytheresa.com/media/static/raw/cms/l/mw_hp_cw23_2022/PREFALL_BIG2_01_DESKTOP_2X_20220613145819.jpg?imwidth=1180&imdensity=1" alt="">
+        
+    </div>
+    <div class="front_img">
+            <img id="front_img1" src="https://img.mytheresa.com/media/static/raw/cms/l/mw_hp_cw23_2022/BIG3_SALE_60/EN/BIG2_DESKTOP_2X_20220613150228.jpg?imwidth=1180&imdensity=1" alt="">
+
+        <div id="front_div1">
+            <h1 class="img_letter">Sale</h1>
+            <p class="img_ptag">Further reductions - now up to 60% off</p>
+            <button class="img_bottom">SHOP SALE >></button>
+        </div>    
+    </div>
+    <section id="section1">
+        <h1 id="h1_tag1">MYTHERESA – MEN’S LUXURY AND DESIGNER FASHION</h1>
+        <p class="p_tag1">Mytheresa has organized a collection of designer menswear items to keep 
+            every man looking his best. Each item in our menswear assortment has been curated and edited by 
+            leading experts in men’s fashion. By simply browsing our website, you will discover a luxury 
+            shopping experience and find all you need to help you achieve a distinct, well-refined look. We offer fast, 
+            worldwide shipping to 130 countries within 72 hours on everything. From the most beloved luxury fashion brands for men, to our highly sought after exclusive 
+            menswear designer collaborations – Mytheresa’s tailored edit is suited to stylish men worldwide.
+        </p>
+        <p class="p_tag1">Amongst our daily New Arrivals, you will uncover the freshest trends straight off the runway. With Mytheresa’s 
+            assortment of designer clothes you are guaranteed to look distinguished and build a sophisticated closet that 
+            serves your preferred lifestyle. Discover sharp suiting options by Ermenegildo Zegna for work or opt for an 
+            elevated off-duty item from Polo Ralph Lauren. Put your best foot forward in men’s designer shoes from esteemed 
+            labels like Prada and Saint Laurent. Not forgetting the perfect finishing touch with classic accessories for men, such as a luxury watch, a classic Burberry scarf or a statement tie. 
+            Our buyers have put together the finest selection of iconic styles to help maintain your reputation as a dashing gentleman. 
+            A helping hand, our team have carefully selected the perfect designer bags to complete your everyday look.
+        </p>
+        <!--table here-->
+
+        
+        <p class="p_tag1">
+            Mytheresa has a long and rich fashion heritage that spans more than 30 years. 
+            What began in the heart of Munich as a contained local boutique offering creations from international designers 
+            has now grown to become one of the most innovative luxury e-commerce companies in the world. Whether 
+            you’re paying a visit to our Mytheresa Store, browsing from your computer at home, or shopping on-the-go via our mobile app, 
+            our goal always remains the same: to provide the perfect space that caters to all your shopping desires.
+        </p>
+        <p class="p_tag1">
+            At Mytheresa we know that stylish men love fashion too and as a result, our professional Customer S
+            ervice team is here to help with your order and make sure 
+            you are always dressed for success.
+        </p>
+    </section>
+    <!--fotter-->
+    <div id="divs">
+        <h2>SHOP WHENEVER, WHEREVER WITH THE APP</h2>
+        <div>
+           <div>
+           <a href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700065205026376_creativeid_535350509651_device_c&gclid=Cj0KCQjwzLCVBhD3ARIsAPKYTcQSEmhTeBPyELXr_HFsMSNaqgusikb9aVMqMgpty7TikI4BkgfGehgaAr6QEALw_wcB&gclsrc=aw.ds"><img src="data:image/png;base64,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" alt=""></a>
+           </div>
+        </div>
+    </div>
+    <div id="bottomLast">
+        <div class="bottomLast">
+          <ul>
+            <dd>
+              <p> SERVICE & SECURITY</p>
+            </dd>
+    
+            <dd>Fast Delivery</dd>
+            <dd>Delivery within 2 business days</dd>
+            <dd>Free returns within 30 days</dd>
+            <dd>Convenient return service</dd>
+    
+            <dd>Secure payment and data protection</dd>
+            <dd>SSL encryption for secure transaction and personal data</dd>
+          </ul>
+        </div>
+        <div class="bottomLast">
+    
+    
+          <ul>
+            <dd>
+              <p> MYTHERESA</p>
+            </dd>
+            <dd>About Us</dd>
+            <dd>Trust & Services</dd>
+            <dd>Sustainabilty</dd>
+            <dd>Press</dd>
+            <dd>Career</dd>
+            <dd>Inverstor Relation </dd>
+            <dd>Affilates</dd>
+          </ul>
+        </div>
+       
+        <div class="bottomLast">
+    
+    
+          <ul>
+            <dd>
+              <p> CUSTOMER CARE</p>
+            </dd>
+            <dd>Contact us</dd>
+            <dd>Shipping information</dd>
+            <dd>Secure Payment</dd>
+            <dd>Exchanges</dd>
+            <dd>Returns</dd>
+            <dd>After sale service </dd>
+            <dd>Gift card</dd>
+          </ul>
+        </div>
+        <div class="bottomLast">
+    
+    
+          <ul>
+            <dd>
+              <p>GET TREND UPDATES, STYLE TIPS AND MORE</p>
+            </dd>
+            <input type="search" name="Sign in" id="searchbottom" placeholder="Enetr your Email Address">
+            <dd>Wish list</dd>
+            <dd>Receive personal notification </dd>
+            
+          </ul>
+    
+        </div>
+      </div>
+      <hr>
+      <div id="divs2">
+        <div>
+            <p>Payment Methods:</p>
+    <a href="https://www.paypal.com/in/webapps/mpp/home"><img class="img1" src="https://www.urbantool.com/wp-content/uploads/2016/12/paypal-logo-png.png" alt=""></a>
+        </div>
+        <div class="tt">
+            <p>delivered by:</p>
+            <a href="https://www.dhl.com/in-en/home.html?locale=true"><img class="popo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8hnpsSEBTRUZQqfagc-nMFD_kk8z_fcxsQ&usqp=CAU" alt=""></a>
+        </div>
+      </div>
+    </body>
+</body>
+</html>
