@@ -185,7 +185,7 @@ function displayProducts(clothData) {
                 }
                 cladata.push(el)
                 alert("added")
-                localStorage.setItem("women-new arrival", JSON.stringify(cladata))
+                localStorage.setItem("kids-NewArr", JSON.stringify(cladata))
             }
         })
         // console.log("Sanjay")
