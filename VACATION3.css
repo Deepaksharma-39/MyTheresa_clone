@@ -64,6 +64,7 @@ a {
     gap: 10px 10px;
     margin: auto;
     margin-top: 0px;
+    padding-bottom: 20px;
 }
 #display>div>img{
     width: 100%;
@@ -315,4 +316,173 @@ form>input{
     font-weight: 700;
     margin-top: 5px;
     margin-left: 10px;
+}
+#FooterDetails {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+#FooterDetails>div {
+    margin: auto;
+    margin-top: 0%;
+}
+
+#FooterDetails>div p {
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #818d9d;
+}
+
+#FooterDetails>div:first-child p+p {
+    margin-left: 0px;
+    color: rgb(17, 21, 21);
+}
+
+#FooterDetails>div:first-child p+p+p {
+    margin-left: 16px;
+    color: #818d9d;
+}
+
+#FooterDetails>div:first-child p+p+p+p {
+    margin-left: 0px;
+    color: rgb(17, 21, 21);
+}
+
+#FooterDetails>div:first-child p+p+p+p+p {
+    margin-left: 16px;
+    color: #818d9d;
+}
+
+#FooterDetails>div:first-child p+p+p+p+p+p {
+    margin-left: 0px;
+    color: rgb(17, 21, 21);
+}
+
+#FooterDetails>div:first-child p+p+p+p+p+p+p {
+    margin-left: 16px;
+    color: #818d9d;
+}
+
+
+#FooterDetails>div:last-child {
+    width: 25%;
+}
+
+#FatherLogo {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 15px;
+}
+
+#FatherLogo>div {
+    width: 100%;
+    color: gray;
+}
+
+#LoGo {
+    width: 100%;
+    margin: 5px;
+}
+
+#FooterDetails>div:last-child input {
+    /* padding-top: 10px;
+    padding-bottom: 5px; */
+    padding: 7px 20px 7px 20px;
+}
+
+#LoGo:hover {
+    background-color: #c1c0c0;
+}
+
+#FooterDetails>div:last-child label {
+    padding: 11px 17px 11px 17px;
+    background-color: #c3c3c3;
+    font-size: 12px;
+}
+#FooterDetails>div:last-child label:hover {
+  background-color: #666666;
+}
+
+#FooterDetails>div:last-child label+p {
+    color: rgb(17, 21, 21);
+}
+
+#FooterDetails>div:last-child label+p+p+p {
+    color: rgb(17, 21, 21);
+}
+
+#LastFooter {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+
+#LastFooter>div {
+
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#LastFooter>div a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+    margin-top: 18px;
+}
+
+
+#LastFooter>div img {
+    width: 50%;
+    /* border: 1px solid rgb(9, 3, 3); */
+    margin-top: 16px;
+}
+
+#img {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+#img p {
+    width: 130%;
+    font-size: 19px;
+    /* border: 1px solid rgb(143, 158, 85); */
+}
+
+#LastFooter>div:nth-child(2) {
+    margin-top: 18px;
+}
+
+#imgg1 {
+    width: 100px;
+}
+
+
+#imgg1>p {
+    width: 40%;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+#im {
+    width: 30%;
+    height: 50%;
+}
+
+#imgg2 {
+    width: 100%;
 }

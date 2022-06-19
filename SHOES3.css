@@ -19,6 +19,9 @@
     font-size: 13px;
     font-weight: 400;
 }
+#details>div:last-child>button>a{
+    color: black;
+}
 #categoryy a:hover{
     background-color: #f2f2f2 ;
     padding: 9px 15px 9px 15px;
@@ -64,6 +67,7 @@ a {
     gap: 10px 10px;
     margin: auto;
     margin-top: 0px;
+    padding-bottom: 20px;
 }
 #display>div>img{
     width: 100%;
