@@ -24,5 +24,5 @@ function Check() {
         document.querySelector("#form").style.display = "none";
     }
     let CardNumber = document.querySelector("#CreditCardNumber").innerText;
-    console.log(CardNumber);
+    //console.log(CardNumber);
 }

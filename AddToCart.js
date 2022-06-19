@@ -101,7 +101,7 @@ function PromoCode(event) {
 }
 
 function MainPage() {
-    window.location.href = "NEW ARRIVAL.html"
+    window.location.href = "NEW ARRIVAL3.html"
 }
 
 
