@@ -67,6 +67,7 @@ a {
     gap: 10px 10px;
     margin: auto;
     margin-top: 0px;
+    padding-bottom: 20px;
 }
 #display>div>img{
     width: 100%;
