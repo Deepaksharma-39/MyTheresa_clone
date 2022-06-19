@@ -1,6 +1,6 @@
 #miniNav{
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 50px;
     background-color: white;
     margin: auto;
@@ -15,7 +15,7 @@
 }
 #miniNav>div:first-child{
     display: flex;
-    width: 70%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid red; */
@@ -259,7 +259,7 @@ a{
         
         }
         #FooterDetails {
-          width: 80%;
+          width: 95%;
           margin: auto;
           display: flex;
           justify-content: space-between;
@@ -363,7 +363,7 @@ a{
       }
       
       #LastFooter {
-          width: 80%;
+          width: 95%;
           margin: auto;
           display: flex;
           justify-content: space-between;
@@ -408,6 +408,8 @@ a{
           margin-top: 18px;
       }
       
-      #imgg1 {
-          width: 100px;
+      #imgg1 img {
+         border: 1px solid red;
+         aspect-ratio: .4/.2;
+         margin-left: 10px;
       }

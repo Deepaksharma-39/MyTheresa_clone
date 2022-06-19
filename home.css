@@ -94,7 +94,7 @@
 /* NAVBAR CSS */
 #miniNav{
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 50px;
     background-color: white;
     margin: auto;
@@ -108,7 +108,7 @@
 }
 #miniNav>div:first-child{
     display: flex;
-    width: 60%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
     font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
@@ -300,7 +300,7 @@ a{
 
   /* bottom */
   #FooterDetails {
-    width: 80%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -404,7 +404,7 @@ a{
 }
 
 #LastFooter {
-    width: 80%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
