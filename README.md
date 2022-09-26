@@ -1,4 +1,4 @@
-[![logo](https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T092128)](https://resplendent-elf-e32d23.netlify.app/)
+
 
 
 # MYTHERESA - Clone
